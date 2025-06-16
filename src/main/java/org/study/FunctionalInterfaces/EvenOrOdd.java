@@ -1,5 +1,5 @@
 package org.study.FunctionalInterfaces;
-
+@FunctionalInterface
 interface Predicate<T>{
     boolean check(T t);
 }
